@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #DC6D32;
+  --secondary-color: #ff8949;
+  --pale-background-color: #ffe2cd;
+  --pale-card-color: #fff4eb;
+  --input-light-green: #def1ea;
+  --textarea-light-green: #77a391;
+  --button-color: #2fa878;
+  --button-active-color: #1f9264;
+  --mobile-hover-color: #f1702b;
+  --text-dark-brown: #29241f;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 1px;
+  padding: 5px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+/**
+  Custom styles for google analytics
+  Only way to overwite default styles of the plugin 
+*/
+.analytics-dashboard{
+  width: 95%;
+}
+.gapi-view-selector-container {
+  display: flex;
+  justify-content: center;
+}
+.gapi-view-selector-container table {
+  text-align: center;
+}
+.gapi-view-selector-container table tr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gapi-view-selector-container table tr td{
+  margin: auto;
+}
+.analytics-auth-widgets{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

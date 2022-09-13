@@ -1,0 +1,37 @@
+{
+  "name": "ppvt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p ${PORT:=3000}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@mantine/core": "^3.6.11",
+    "@mantine/hooks": "^3.6.11",
+    "@svgr/webpack": "^6.2.0",
+    "babel-plugin-styled-components": "^1.13.3",
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.2",
+    "mathjs": "^10.4.0",
+    "next": "^11.1.4",
+    "next-images": "^1.8.2",
+    "react": "^17.0.2",
+    "react-analytics-charts": "^1.2.12",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.4",
+    "react-ga": "^3.3.0",
+    "react-select": "^5.2.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-next": "11.1.2",
+    "tailwindcss": "^3.0.2"
+  }
+}
